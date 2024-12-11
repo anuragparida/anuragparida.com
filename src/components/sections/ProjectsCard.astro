@@ -9,11 +9,9 @@ import { PROJECTS } from '../../lib/constants'
     {
       PROJECTS.slice(0, 3).map((exp) => (
         <div>
-          <h3 class="text-lg font-semibold">{exp.title}</h3>
           <a class="text-sm text-primary" href={exp.link ?? ''}>
-            {exp.institution}
+            <h3 class="text-lg font-semibold">{exp.title}</h3>
           </a>
-          <p class="text-sm text-gray-600">{exp.date}</p>
           <p class="text-sm font-light">{exp.description}</p>
         </div>
       ))

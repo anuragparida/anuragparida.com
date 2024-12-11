@@ -7,13 +7,14 @@ import { EDUCATION } from '../../lib/constants'
 <Card colSpan="md:col-span-2" rowSpan="md:row-span-1" title="Education">
   <div class="mt-2 space-y-4">
     {
-      EDUCATION.slice(0, 3).map((study) => (
+      EDUCATION.slice(0, 3).map((entry) => (
         <div>
-          <h3 class="text-lg font-semibold">{study.title}</h3>
-          <a class="text-sm text-primary" href={study.link ?? ''}>
-            {study.institution}
+          <h3 class="text-lg font-semibold">{entry.title}</h3>
+          <a class="text-sm text-primary" href={entry.link ?? ''}>
+            {entry.institution}
           </a>
-          <p class="text-sm text-gray-600">{study.date}</p>
+          <p class="text-sm font-light">{entry.description}</p>
+          <p class="text-sm text-gray-600">{entry.date}</p>
         </div>
       ))
     }
