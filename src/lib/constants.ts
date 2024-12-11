@@ -64,10 +64,10 @@ export const CERTIFICATIONS = [
     title: 'AZ-104 Azure Administrator Associate',
     institution: 'Microsoft Certified',
     link: 'https://learn.microsoft.com/en-us/credentials/certifications/azure-administrator/?practice-assessment-type=certification/',
-    date: '2025',
+    date: '2025 (In Progress)',
   },
   {
-    title: 'Band 8.5',
+    title: 'Band 8.5 (9.0)',
     institution: 'International English Language Testing System (IELTS)',
     link: 'https://ielts.org/',
     date: '2022',

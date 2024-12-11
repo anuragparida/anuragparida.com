@@ -1,6 +1,6 @@
 ---
 import '@/styles/globals.css'
-import '@/styles/fonts.css'
+// import '@/styles/fonts.css'
 
 interface Props {
   title?: string | undefined
@@ -43,3 +43,10 @@ const { title, description, ogImage } = Astro.props
 <meta property="twitter:title" content={title} />
 <meta property="twitter:description" content={description} />
 <meta property="twitter:image" content={ogImage} />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,400;1,14..32,400;0,14..32,700;1,14..32,700&display=swap"
+  rel="stylesheet"
+/>
