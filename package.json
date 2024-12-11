@@ -7,7 +7,7 @@
     "name": "Anurag Parida"
   },
   "scripts": {
-    "dev": "astro dev",
+    "dev": "astro dev --host",
     "format": "prettier -w . --cache",
     "build": "astro build",
     "preview": "astro preview",

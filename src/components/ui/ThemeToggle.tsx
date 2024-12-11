@@ -11,7 +11,7 @@ import {
 
 export function ModeToggle() {
   const [theme, setThemeState] = React.useState<'light' | 'dark' | 'system'>(
-    'light',
+    'dark',
   )
 
   React.useEffect(() => {
