@@ -2,8 +2,15 @@
 import Card from '../Card.astro'
 ---
 
-<Card colSpan="md:col-span-1" rowSpan="md:row-span-1" title="Spotify">
-  <div class="flex flex-col gap-2">
-    <p class="text-sm font-light">EMBED SPOTIFY FAV SONG HERE</p>
-  </div>
-</Card>
+<div class="flex items-center md:col-span-1 md:row-span-1">
+  <iframe
+    style="border-radius:12px"
+    src="https://open.spotify.com/embed/track/3yyUCi2aug4daXsYQa4x1L?utm_source=generator&theme=0"
+    width="100%"
+    height="152"
+    style="border:0; overflow:hidden;"
+    scrolling="no"
+    allowfullscreen=""
+    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+    loading="lazy"></iframe>
+</div>

@@ -53,7 +53,7 @@ export const EDUCATION = [
     institution: 'Amity International School, Gurgaon',
     link: 'https://amityschools.in/gurugram46/',
     description:
-      'Founding Member, 2xPresident, Technology Club | President, Atal Tinkering Lab by Govt. of India | Student Council (Cyber Captain) | 2x Tech Lead@TedXYouth',
+      'Founding Member & 2xPresident @Technology Club | President @Atal Tinkering Lab by Government of India | Student Council (Cyber Captain) | 2x Tech Lead @TedXYouth',
     date: '2014-2020',
   },
 ]
@@ -138,6 +138,7 @@ export const EXPERIENCE = [
     start: 'October 2024',
     link: 'https://straico.com/',
     end: 'Present',
+    description: 'Working on the MB.OS Delivery team.',
     tasks: [
       'Integration IA services with react and tailwind css',
       'Development and build of DB with mongoDB',
@@ -149,6 +150,7 @@ export const EXPERIENCE = [
     position: 'Research Assistant',
     link: 'https://fwi.thws.de/',
     start: 'October 2023',
+    description: 'Working on the MB.OS Delivery team.',
     end: 'May 2024',
     tasks: [
       'Development of the Spot2 platform with the use of React, Redux, and Material UI',
@@ -163,6 +165,7 @@ export const EXPERIENCE = [
     position: 'Product and Engineering Lead, Employee #1',
     link: 'https://www.ycombinator.com/companies/zepto',
     start: 'November 2020',
+    description: 'Working on the MB.OS Delivery team.',
     end: 'February 2021',
     tasks: [
       'Development of the Spot2 platform with the use of React, Redux, and Material UI',
@@ -177,6 +180,7 @@ export const EXPERIENCE = [
     position: 'Mentor for SCoReLab',
     link: 'https://summerofcode.withgoogle.com/archive/2019/organizations/4922378566500352',
     start: 'April 2020',
+    description: 'Working on the MB.OS Delivery team.',
     end: 'August 2020',
     tasks: [
       'Development of the Spot2 platform with the use of React, Redux, and Material UI',
