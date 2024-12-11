@@ -7,12 +7,10 @@ export const loaderAnimation = [
 ]
 
 export const LINKS = {
-  github: 'https://github.com/bue221',
-  linkedin: 'https://www.linkedin.com/in/bue221/',
-  mail: 'mailto:camiloplaza3@gmail.com',
-  instagram: 'https://www.instagram.com/caj_ink/',
-  medium: 'https://ladvace.medium.com/',
-  discord: 'https://discordapp.com/users/163300027618295808',
+  github: 'https://github.com/anuragparida',
+  linkedin: 'https://www.linkedin.com/in/anuragparida',
+  mail: 'mailto:hi@anuragparida.com',
+  instagram: 'https://www.instagram.com/anuragparidaa/',
 }
 
 // Global
@@ -34,31 +32,61 @@ export const BLOG: Page = {
   DESCRIPTION: 'Writing on topics I am passionate about.',
 }
 
-// Projects Page
-export const PROJECTS: Page = {
-  TITLE: 'Projects',
-  DESCRIPTION: 'A couple of projects I have worked on.',
-}
-
 // Search Page
 export const SEARCH: Page = {
   TITLE: 'Search',
   DESCRIPTION: 'Search all posts and projects by keyword.',
 }
 
-// Study Page
-export const STUDIES = [
+// Education Page
+export const EDUCATION = [
   {
-    title: 'Robotics',
-    institution: 'THWS',
+    title: 'Bachelors of Engineering in Robotics',
+    institution: 'Technische Hochschule Würzburg Schweinfurt',
     link: 'https://www.ucentral.edu.co/',
     date: '2022-2025',
   },
   {
-    title: '...',
-    institution: 'Platzi',
+    title: 'High School Diploma',
+    institution: 'Amity International School, Gurgaon',
     link: 'https://platzi.com/',
-    date: '2018 - 2022',
+    date: '2014-2020',
+  },
+]
+
+// Study Page
+export const CERTIFICATIONS = [
+  {
+    title: 'Bachelors of Engineering in Robotics',
+    institution: 'Technische Hochschule Würzburg Schweinfurt',
+    link: 'https://www.ucentral.edu.co/',
+    date: '2022-2025',
+  },
+  {
+    title: 'High School Diploma',
+    institution: 'Amity International School, Gurgaon',
+    link: 'https://platzi.com/',
+    date: '2014-2020',
+  },
+]
+
+export const AWARDS = [
+  {
+    title: 'Grand Prize Winner',
+    institution: 'Google Code-In',
+    description: 'ADD DESCRIPTION',
+    link: 'https://codein.withgoogle.com/',
+    date: '2019',
+  },
+]
+
+export const PROJECTS = [
+  {
+    title: 'Grand Prize Winner',
+    institution: 'Google Code-In',
+    description: 'ADD DESCRIPTION',
+    link: 'https://codein.withgoogle.com/',
+    date: '2019',
   },
 ]
 

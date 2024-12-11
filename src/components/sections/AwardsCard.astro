@@ -1,0 +1,22 @@
+---
+import Card from '../Card.astro'
+import { Button } from '../ui/button'
+import { AWARDS } from '../../lib/constants'
+---
+
+<Card colSpan="md:col-span-1" rowSpan="md:row-span-3" title="Awards">
+  <div class="mt-2 space-y-4">
+    {
+      AWARDS.slice(0, 3).map((award) => (
+        <div>
+          <h3 class="text-lg font-semibold">{award.title}</h3>
+          <a class="text-sm text-primary" href={award.link ?? ''}>
+            {award.institution}
+          </a>
+          <p class="text-sm text-gray-600">{award.date}</p>
+        </div>
+      ))
+    }
+    READ MORE BUTTON
+  </div>
+</Card>
