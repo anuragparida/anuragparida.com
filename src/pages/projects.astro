@@ -4,6 +4,8 @@ import TopLayout from '../layouts/TopLayout.astro'
 import BottomLayout from '../layouts/BottomLayout.astro'
 
 import { PROJECTS, PROJECTPAGE } from '../lib/constants'
+import { Button } from '@/components/ui/button'
+import { ChevronLeft } from 'lucide-react'
 ---
 
 <BaseLayout title={PROJECTPAGE.TITLE} description={PROJECTPAGE.DESCRIPTION}>
@@ -12,6 +14,11 @@ import { PROJECTS, PROJECTPAGE } from '../lib/constants'
       <h2
         class="scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight first:mt-0"
       >
+        <a href="/" class="mr-2 text-primary">
+          <Button variant="default" size="icon">
+            <ChevronLeft />
+          </Button>
+        </a>
         {PROJECTPAGE.TITLE}
       </h2>
     </TopLayout>
@@ -20,11 +27,11 @@ import { PROJECTS, PROJECTPAGE } from '../lib/constants'
         {
           PROJECTS.map((entry) => (
             <li class="animate mt-4 border-b border-black/10 py-8 first-of-type:mt-0 first-of-type:pt-0 last-of-type:border-none dark:border-white/25">
-              <div class="mb-4 text-sm uppercase">{entry.institution}</div>
               <a
                 href={entry.link ?? ''}
-                class={`font-semibold ${entry?.link ? 'text-primary' : 'text-foreground'}`}
+                class="mb-2 text-lg font-semibold text-primary"
               >
+                {/* a class ^^^ class={`font-semibold ${entry?.link ? 'text-primary' : 'text-foreground'}`} */}
                 {entry.title}
               </a>
               <div class="text-sm font-semibold">{entry.description}</div>

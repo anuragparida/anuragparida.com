@@ -4,6 +4,8 @@ import TopLayout from '../layouts/TopLayout.astro'
 import BottomLayout from '../layouts/BottomLayout.astro'
 
 import { EXPERIENCE, WORKPAGE } from '../lib/constants'
+import { Button } from '@/components/ui/button'
+import { ChevronLeft } from 'lucide-react'
 ---
 
 <BaseLayout title={WORKPAGE.TITLE} description={WORKPAGE.DESCRIPTION}>
@@ -12,6 +14,11 @@ import { EXPERIENCE, WORKPAGE } from '../lib/constants'
       <h2
         class="scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight first:mt-0"
       >
+        <a href="/" class="mr-2 text-primary">
+          <Button variant="default" size="icon">
+            <ChevronLeft />
+          </Button>
+        </a>
         {WORKPAGE.TITLE}
       </h2>
     </TopLayout>
