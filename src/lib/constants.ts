@@ -95,7 +95,7 @@ export const AWARDS = [
     title: 'Grand Finalist',
     institution: 'HackHarvard Global Hackathon (MLH)',
     description:
-      "Invited by Alibaba Tianchi to present my project 'ALM8- Alzheimer's Mate' in China and then at Harvard University during MLH week 2019. Theproject wasselected in top 3among500+openparticipantsontheplatform'Codechef'.",
+      "Invited by Alibaba Tianchi to present my project 'ALM8- Alzheimer's Mate' in China and then at Harvard University during MLH week 2019. Theproject was selected in the top 3 among 500+ open participants on the platform 'Codechef'.",
     link: 'https://tianchi.aliyun.com/competition/entrance/231692',
     date: '2018',
   },
