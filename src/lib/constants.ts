@@ -165,7 +165,7 @@ export const EXPERIENCE = [
     position: 'Product and Engineering Lead, Employee #1',
     link: 'https://www.ycombinator.com/companies/zepto',
     start: 'November 2020',
-    description: 'Built the MVP and ground-level product & logistics strategy for a Y-Combinator startup valued at $3B today.',
+    description: 'Built the MVP and ground-level product & logistics strategy as the first Employee and CPO for a Y-Combinator startup valued at $3B today.',
     end: 'February 2021',
     tasks: [
       // 'Development of the Spot2 platform with the use of React, Redux, and Material UI',
