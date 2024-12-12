@@ -21,20 +21,20 @@ export const SITE: Site = {
 }
 
 // Work Page
-export const WORK: Page = {
-  TITLE: 'Work',
+export const WORKPAGE: Page = {
+  TITLE: 'Experience',
   DESCRIPTION: 'Places or projects I have worked on.',
 }
 
-// Blog Page
-export const BLOG: Page = {
-  TITLE: 'Blog',
+// Awards Page
+export const AWARDSPAGE: Page = {
+  TITLE: 'Awards',
   DESCRIPTION: 'Writing on topics I am passionate about.',
 }
 
-// Search Page
-export const SEARCH: Page = {
-  TITLE: 'Search',
+// Projects Page
+export const PROJECTPAGE: Page = {
+  TITLE: 'Projects',
   DESCRIPTION: 'Search all posts and projects by keyword.',
 }
 
