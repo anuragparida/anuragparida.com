@@ -139,10 +139,10 @@ export const EXPERIENCE = [
     link: 'https://group.mercedes-benz.com/careers/about-us/mercedes-benz-operating-system/',
     end: 'Present',
     description: 'Working on the MB.OS Delivery team for visualising a proprietary data visualisation technique which lets executives make decisions within seconds.',
-    // tasks: [
-    //   'Integration IA services with react and tailwind css',
-    //   'Development and build of DB with mongoDB',
-    // ],
+    tasks: [
+      // 'Integration IA services with react and tailwind css',
+      // 'Development and build of DB with mongoDB',
+    ],
   },
   {
     company: 'THWS',
@@ -152,12 +152,12 @@ export const EXPERIENCE = [
     start: 'October 2023',
     description: 'Built a new data pipeline and visualisation system for university students with internal data.',
     end: 'May 2024',
-    // tasks: [
-    //   'Development of the Spot2 platform with the use of React, Redux, and Material UI',
-    //   'Development map with the use of Google Maps API',
-    //   'Development internal platform with the use of React, Redux, and Material UI',
-    //   'Testing and debugging',
-    // ],
+    tasks: [
+      // 'Development of the Spot2 platform with the use of React, Redux, and Material UI',
+      // 'Development map with the use of Google Maps API',
+      // 'Development internal platform with the use of React, Redux, and Material UI',
+      // 'Testing and debugging',
+    ],
   },
   {
     company: 'Zepto (YC SS21)',
@@ -167,12 +167,12 @@ export const EXPERIENCE = [
     start: 'November 2020',
     description: 'Built the MVP and ground-level product & logistics strategy for a Y-Combinator startup valued at $3B today.',
     end: 'February 2021',
-    // tasks: [
-    //   'Development of the Spot2 platform with the use of React, Redux, and Material UI',
-    //   'Development map with the use of Google Maps API',
-    //   'Development internal platform with the use of React, Redux, and Material UI',
-    //   'Testing and debugging',
-    // ],
+    tasks: [
+      // 'Development of the Spot2 platform with the use of React, Redux, and Material UI',
+      // 'Development map with the use of Google Maps API',
+      // 'Development internal platform with the use of React, Redux, and Material UI',
+      // 'Testing and debugging',
+    ],
   },
   {
     company: 'Google Summer of Code',
@@ -182,11 +182,11 @@ export const EXPERIENCE = [
     start: 'April 2020',
     description: 'Mentored university students participating in Google Summer of Code while still being in high school.',
     end: 'August 2020',
-    // tasks: [
-    //   'Development of the Spot2 platform with the use of React, Redux, and Material UI',
-    //   'Development map with the use of Google Maps API',
-    //   'Development internal platform with the use of React, Redux, and Material UI',
-    //   'Testing and debugging',
-    // ],
+    tasks: [
+      // 'Development of the Spot2 platform with the use of React, Redux, and Material UI',
+      // 'Development map with the use of Google Maps API',
+      // 'Development internal platform with the use of React, Redux, and Material UI',
+      // 'Testing and debugging',
+    ],
   },
 ]
