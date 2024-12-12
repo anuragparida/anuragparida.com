@@ -128,7 +128,7 @@ export const PROJECTS = [
       "Worked as a team to strategize, invest and form a sustainable portfolio for KWHS, Wharton University's annual high school investment challenge.",
     link: '',
   },
-]
+] // Add ALM8
 
 export const EXPERIENCE = [
   {
