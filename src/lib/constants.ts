@@ -181,7 +181,7 @@ export const EXPERIENCE = [
     ],
   },
   {
-    company: 'Zepto (YC SS21)',
+    company: 'Zepto (Kiranakart, YC SS21)',
     location: 'Mumbai, India',
     position: 'Product and Engineering Lead, Employee #1',
     link: 'https://www.ycombinator.com/companies/zepto',
