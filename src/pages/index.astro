@@ -15,7 +15,7 @@ import ProjectsCard from '@/components/sections/ProjectsCard.astro'
 import CertificationsCard from '@/components/sections/CertificationsCard.astro'
 ---
 
-<!-- <script>
+<script>
   import { stagger, spring, timeline, type TimelineDefinition } from 'motion'
   import { loaderAnimation } from '../lib/constants'
 
@@ -28,18 +28,18 @@ import CertificationsCard from '@/components/sections/CertificationsCard.astro'
       { y: ['40%', '0%'], opacity: [0, 1] },
       {
         at: '-0.1',
-        duration: 0.4,
-        delay: stagger(0.3),
+        duration: 0.3,
+        delay: stagger(0.2),
         easing: spring({ velocity: 100, stiffness: 50, damping: 10 }),
       },
     ],
   ]
 
   timeline(sequence as TimelineDefinition)
-</script> -->
+</script>
 <BaseLayout
-  title="Andrés Plaza - Full Stack Developer"
-  description="Andrés Plaza - Full Stack Developer - Portfolio, Projects, CV, About Me, Contact, Timezone, Now, Experience, Tattoo, Study"
+  title="Anurag Parida"
+  description="Anurag Parida - About, CV, Contact, Experience, Blog, Education"
 >
   <div
     slot="loader"
@@ -57,37 +57,10 @@ import CertificationsCard from '@/components/sections/CertificationsCard.astro'
     <HobbiesCard />
 
     <CertificationsCard />
-    <!-- <Now /> -->
-    <!-- <Card
-      colSpan="md:col-span-1"
-      rowSpan="md:row-span-2"
-      title="Portfolio & Projects"
-      href="/portfolio"
-    /> -->
-    <!-- <TimeZoneCard /> -->
-    <!-- <ContactsCard /> -->
     <ProjectsCard />
     <ExperienceCard />
     <AwardsCard />
-    <!-- <Card colSpan="md:col-span-1" rowSpan="md:row-span-1">
-      <div class="flex h-full flex-col justify-between">
-        <blockquote class="mt-6 border-l-2 pl-6 italic">
-          “Anything one man can imagine, other men can make real.”
-        </blockquote>
-        <p class="mt-2 text-xs">- Jules Verne</p>
-      </div>
-    </Card> -->
-    <!-- <TattooCard /> -->
     <EducationCard />
     <BlogCard />
-    <!-- <Card colSpan="md:col-span-1" rowSpan="md:row-span-1">
-      <p class="text-xs">
-        © 2023 · Crafted with ♥️ using <a
-          href="https://astro.build/"
-          target="_blank"
-          class="text-red-500">Astro</a
-        > by Gianmarco.
-      </p>
-    </Card> -->
   </main>
 </BaseLayout>
