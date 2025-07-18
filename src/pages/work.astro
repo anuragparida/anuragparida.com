@@ -8,7 +8,10 @@ import { Button } from '@/components/ui/button'
 import { ChevronLeft } from 'lucide-react'
 ---
 
-<BaseLayout title={"Anurag Parida - " + WORKPAGE.TITLE} description={WORKPAGE.DESCRIPTION}>
+<BaseLayout
+  title={'Anurag Parida - ' + WORKPAGE.TITLE}
+  description={WORKPAGE.DESCRIPTION}
+>
   <main class="flex min-h-[80vh] flex-auto flex-col" transition:animate="fade">
     <TopLayout>
       <h2
@@ -38,9 +41,11 @@ import { ChevronLeft } from 'lucide-react'
               </a>
               <div class="text-sm font-semibold">{entry.position}</div>
               <article class="prose dark:prose-invert">
-                {entry.tasks.map((i) => (
-                  <>{i}</>
-                ))}
+                <ul class="list-disc pl-5 pt-3">
+                  {entry.tasks.map((i) => (
+                    <li>{i}</li>
+                  ))}
+                </ul>
               </article>
             </li>
           ))

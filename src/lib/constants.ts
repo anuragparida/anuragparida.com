@@ -1,3 +1,4 @@
+import { title } from 'process'
 import type { Site, Page } from './types'
 
 export const loaderAnimation = [
@@ -110,6 +111,12 @@ export const AWARDS = [
 
 export const PROJECTS = [
   {
+    title: 'ALM8 - Alzheimer’s Mate',
+    description:
+      "Developed and worked on a Raspberry Pi based solution for issues pertaining to Alzheimer's patients supplemented by an Android app. | Azure, GCP, DialogFlow, Proprietary libraries | Targets wandering, motion imbalance, vision and memory issues.",
+    link: 'https://github.com/anuragparida/ALM8',
+  },
+  {
     title: 'Peeku',
     institution: 'Google Code-In',
     description:
@@ -134,14 +141,29 @@ export const EXPERIENCE = [
   {
     company: 'Mercedes-Benz Group AG',
     location: 'Sindelfingen, Germany',
+    position: 'Final Thesis (MB.OS Delivery)',
+    start: 'April 2025',
+    link: 'https://group.mercedes-benz.com/careers/about-us/mercedes-benz-operating-system/',
+    end: 'Present',
+    description:
+      'Developing an LLM-based artifact search system using embeddings and clustering to streamline planning and reduce redundancy in corporate software development.',
+    tasks: [
+      'Topic: Radical standardisation in corporate software development via LLM-based similarity search.',
+      'Working with vector embeddings and databases, OpenAI and Gemini SDKs, BERTopic, HDBSCAN and TF-ID to accelerate planning cycles and reduce redundant app proposals via intelligent and more understandable artifact search.',
+    ],
+  },
+  {
+    company: 'Mercedes-Benz Group AG',
+    location: 'Sindelfingen, Germany',
     position: 'Intern (MB.OS Delivery)',
     start: 'October 2024',
     link: 'https://group.mercedes-benz.com/careers/about-us/mercedes-benz-operating-system/',
-    end: 'Present',
-    description: 'Working on the MB.OS Delivery team for visualising a proprietary data visualisation technique which lets executives make decisions within seconds.',
+    end: 'March 2025',
+    description:
+      'Worked in the MB.OS Delivery team for visualising a proprietary data visualisation technique which lets executives make decisions within seconds.',
     tasks: [
-      // 'Integration IA services with react and tailwind css',
-      // 'Development and build of DB with mongoDB',
+      'Worked in the new MB.OS department to create a new dev-tracking dashboard system for 8000+ colleagues including executives, aimed at increasing bug-fixing and iteration speed by 30% over traditional AGILE.',
+      'Created a portal with 4+ aggregated data vendors including PowerBI, Jira and vehicular data with Grafana to monitor daily performance of different teams and departments under a new proprietary governance structure.',
     ],
   },
   {
@@ -150,13 +172,12 @@ export const EXPERIENCE = [
     position: 'Research Assistant',
     link: 'https://fwi.thws.de/',
     start: 'October 2023',
-    description: 'Built a new data pipeline and visualisation system for university students with internal data.',
+    description:
+      'Built a new data pipeline and visualisation system for university students with internal data.',
     end: 'May 2024',
     tasks: [
-      // 'Development of the Spot2 platform with the use of React, Redux, and Material UI',
-      // 'Development map with the use of Google Maps API',
-      // 'Development internal platform with the use of React, Redux, and Material UI',
-      // 'Testing and debugging',
+      'Overhauled e-learning UX to improve learning goal tracking; grounded in data with 75%+ positive user feedback.',
+      'Created 3 new authenticated data pipelines, combined performance graphs and personalised learning suggestions.',
     ],
   },
   {
@@ -165,13 +186,26 @@ export const EXPERIENCE = [
     position: 'Product and Engineering Lead, Employee #1',
     link: 'https://www.ycombinator.com/companies/zepto',
     start: 'November 2020',
-    description: 'Built the MVP and ground-level product & logistics strategy as the first Employee and CPO for a Y-Combinator startup valued at $3B today.',
+    description:
+      'Built the MVP and ground-level product & logistics strategy as the first Employee and CPO for a Y-Combinator startup valued at $3B today.',
     end: 'February 2021',
     tasks: [
-      // 'Development of the Spot2 platform with the use of React, Redux, and Material UI',
-      // 'Development map with the use of Google Maps API',
-      // 'Development internal platform with the use of React, Redux, and Material UI',
-      // 'Testing and debugging',
+      'Created the systems and front-facing apps for a Y-Combinator startup as the first employee of the founding team. Conducted 50+ field interviews with shopkeepers and residents to validate business plan and market fit.',
+      'Scaled the startup from 0 to 100K+ downloads; helped raise $60M in the process. Helped hire the executive team before leaving to finish my education. The startup later pivoted into a unicorn and scaled nationally as Zepto.',
+    ],
+  },
+  {
+    company: 'Flamecloud LLC',
+    location: 'Gurgaon, India',
+    position: 'Software Developer (Freelance)',
+    link: 'https://wantace.com/',
+    start: 'May 2020',
+    description:
+      'Built full-stack apps using MERN and React Native, designing scalable architectures with Dockerized microservices and MongoDB/SQL data layers.',
+    end: 'August 2022',
+    tasks: [
+      'Developed MERN and React Native applications over 2 years in project-based work for a boutique digital agency.',
+      'Designed and implemented systems and architectures for 5+ clients including a large Indian e-Bike manufacturer.',
     ],
   },
   {
@@ -180,13 +214,11 @@ export const EXPERIENCE = [
     position: 'Mentor for SCoReLab',
     link: 'https://summerofcode.withgoogle.com/archive/2019/organizations/4922378566500352',
     start: 'April 2020',
-    description: 'Mentored university students participating in Google Summer of Code while still being in high school.',
+    description:
+      'Mentored university students participating in Google Summer of Code while still being in high school.',
     end: 'August 2020',
     tasks: [
-      // 'Development of the Spot2 platform with the use of React, Redux, and Material UI',
-      // 'Development map with the use of Google Maps API',
-      // 'Development internal platform with the use of React, Redux, and Material UI',
-      // 'Testing and debugging',
+      'Mentored multiple university students on development projects related to the Bassa project, a network-limiter and download queueing system for companies with low-bandwidth in third-world countries.',
     ],
   },
 ]
