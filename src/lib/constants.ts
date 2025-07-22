@@ -149,7 +149,7 @@ export const EXPERIENCE = [
       'Developing an LLM-based artifact search system using embeddings and clustering to streamline planning and reduce redundancy in corporate software development.',
     tasks: [
       'Topic: Radical standardisation in corporate software development via LLM-based similarity search.',
-      'Working with vector embeddings and databases, OpenAI and Gemini SDKs, BERTopic, HDBSCAN and TF-ID to accelerate planning cycles and reduce redundant app proposals via intelligent and more understandable artifact search.',
+      'Working with vector embeddings and databases, OpenAI and Gemini SDKs, BERTopic, HDBSCAN and TF-IDF to accelerate planning cycles and reduce redundant app proposals via intelligent and more understandable artifact search.',
     ],
   },
   {
