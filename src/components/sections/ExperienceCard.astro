@@ -5,15 +5,20 @@ import { EXPERIENCE } from '../../lib/constants'
 import { ExternalLink } from 'lucide-react'
 ---
 
-<Card colSpan="md:col-span-2" rowSpan="md:row-span-2" title="Experience">
-  <div class="mt-2 space-y-4">
+<Card colSpan="md:col-span-2" rowSpan="md:row-span-1" title="Experience">
+  <div class="flex flex-col justify-start gap-4">
     {
-      EXPERIENCE.map((exp) => (
+      EXPERIENCE.slice(0, 4).map((exp) => (
         <div>
           <h3 class="text-lg font-semibold">{exp.position}</h3>
           <a class="text-sm text-primary" href={exp?.link ?? ''}>
             {exp.company}
           </a>{' '}
+          {exp.outcome && (
+            <p class="text-sm mt-1 font-medium text-foreground/90">
+              {exp.outcome}
+            </p>
+          )}
           <p class="text-sm font-light">{exp.description}</p>
           <p class="text-sm text-gray-600">
             {exp.location}, {exp.start} - {exp.end}
@@ -23,7 +28,7 @@ import { ExternalLink } from 'lucide-react'
     }
     <a href="/work">
       <Button variant="link" className="mt-2 pl-0"
-        ><ExternalLink /><span class="ml-2">View More</span>
+        ><ExternalLink /><span class="ml-2">Full experience</span>
       </Button>
     </a>
   </div>

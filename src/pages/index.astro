@@ -9,10 +9,10 @@ import EducationCard from '@/components/sections/EducationCard.astro'
 import AwardsCard from '@/components/sections/AwardsCard.astro'
 import HobbiesCard from '@/components/sections/HobbiesCard.astro'
 import LanguagesCard from '@/components/sections/LanguagesCard.astro'
-import SpotifyCard from '@/components/sections/SpotifyCard.astro'
 import BlogCard from '@/components/sections/BlogCard.astro'
 import ProjectsCard from '@/components/sections/ProjectsCard.astro'
 import CertificationsCard from '@/components/sections/CertificationsCard.astro'
+import ToolsAndFrameworksCard from '@/components/sections/ToolsAndFrameworksCard.astro'
 ---
 
 <script>
@@ -39,7 +39,7 @@ import CertificationsCard from '@/components/sections/CertificationsCard.astro'
 </script>
 <BaseLayout
   title="Anurag Parida"
-  description="Anurag Parida - About, CV, Contact, Experience, Blog, Education"
+  description="Software engineer working on cloud, data, and AI systems for commercial insurance at HDI Group. Ex–Mercedes-Benz thesis on LLM-based search, founding engineer at Zepto (YC SS21)."
 >
   <div
     slot="loader"
@@ -52,7 +52,6 @@ import CertificationsCard from '@/components/sections/CertificationsCard.astro'
     <IntroCard />
     <AboutMe />
     <CVCard />
-    <SpotifyCard />
     <LanguagesCard />
     <HobbiesCard />
 
@@ -62,5 +61,6 @@ import CertificationsCard from '@/components/sections/CertificationsCard.astro'
     <AwardsCard />
     <EducationCard />
     <BlogCard />
+    <ToolsAndFrameworksCard />
   </main>
 </BaseLayout>

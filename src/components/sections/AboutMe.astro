@@ -2,30 +2,38 @@
 import Card from '../Card.astro'
 ---
 
-<Card colSpan="md:col-span-1" rowSpan="md:row-span-3" title="What I do">
-  <div class="flex flex-col gap-2">
-    <p class="text-sm font-light">
-      <p class="pb-2 pt-2">📍 Stuttgart, Germany</p>
-      Things I work with:
-      <ul class="list-inside list-disc">
-        <li>BERT & LLMs</li>
-        <li>Docker and Kubernetes</li>
-        <li>Python</li>
-        <li>Typescript</li>
-        <li>MERN Stack</li>
-        <li>Neural Networks</li>
-        <li>Linguistics & NLP</li>
-        <li>Vectors and RAG</li>
-        <li>Azure and cloud systems</li>
-        <li>CI/CD and DevSecOps</li>
-        <li>Databricks</li>
-        <li>React Native and Android</li>
-      </ul>
+<Card colSpan="md:col-span-1" rowSpan="md:row-span-4" title="What I do">
+  <div class="flex flex-col gap-3">
+    <p class="pt-1 text-sm font-light">📍 Cologne, Germany</p>
+
+    <p class="pt-1 text-sm font-light">
+      Most interested in problems where software engineering, infrastructure,
+      data, and organisational processes intersect — especially where the
+      challenge is making complex systems a joy to use while remaining
+      economically real.
     </p>
-    <p class="text-sm font-light">
-      After my long and thorough experience with full-stack and python
-      development, I am now focusing on AI and ML, with a strong emphasis on NLP
-      and cloud-based LLMs.
+
+    <div>
+      <p class="pt-1 text-sm font-semibold">What I work on</p>
+      <ul class="list-inside list-disc pt-1 text-sm font-light">
+        <li>LLM systems & semantic search</li>
+        <li>Data platforms on Kubernetes & AWS</li>
+        <li>Regulated enterprise AI (insurance, finance)</li>
+        <li>Process automation & integration</li>
+        <li>GenAI, traditional ML, and orchestration</li>
+      </ul>
+    </div>
+
+    <p class="pt-1 text-sm font-light">
+      Earlier highlights include the
+      <a
+        href="https://codein.withgoogle.com/archive/2018/"
+        target="_blank"
+        rel="noopener"
+        class="text-primary underline-offset-4 hover:underline"
+        >Google Code-In Grand Prize</a
+      > (2018, one of 26 worldwide) and being employee #1 at a YC SS21 startup
+      that became Zepto.
     </p>
   </div>
 </Card>

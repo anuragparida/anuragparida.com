@@ -8,18 +8,23 @@ import { ExternalLink } from 'lucide-react'
 <Card colSpan="md:col-span-1" rowSpan="md:row-span-2" title="Projects">
   <div class="mt-2 space-y-4">
     {
-      PROJECTS.slice(0, 3).map((exp) => (
+      PROJECTS.slice(0, 4).map((exp) => (
         <div>
           <a class="text-sm text-primary" href={exp.link ?? ''}>
             <h3 class="text-lg font-semibold">{exp.title}</h3>
           </a>
+          {exp.outcome && (
+            <p class="text-sm mt-1 font-medium text-foreground/90">
+              {exp.outcome}
+            </p>
+          )}
           <p class="text-sm font-light">{exp.description}</p>
         </div>
       ))
     }
     <a href="/projects">
       <Button variant="link" className="mt-2 pl-0"
-        ><ExternalLink /><span class="ml-2">View More</span>
+        ><ExternalLink /><span class="ml-2">All projects</span>
       </Button>
     </a>
   </div>
